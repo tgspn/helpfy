@@ -14,7 +14,7 @@ namespace Helpfy.Tests
         {
             Assert.AreEqual(-1, 1.ToNegative());
             Assert.AreEqual(0, 0.ToNegative());
-            Assert.AreEqual(-2, -2.ToNegative());
+            Assert.AreEqual(-2, (-2).ToNegative());
         }
     }
 }
