@@ -11,5 +11,13 @@ namespace Helpfy
             else
                 return value;
         }
+
+        public static int Abs(this int value)
+        {
+            if (value > 0)
+                return value;
+            else
+                return value * -1;
+        }
     }
 }
