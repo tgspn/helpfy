@@ -17,4 +17,10 @@
     <ProjectReference Include="..\Helpfy\Helpfy.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Assets\Images\marguerite.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
