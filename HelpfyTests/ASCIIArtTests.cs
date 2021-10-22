@@ -15,7 +15,7 @@ namespace Helpfy.Tests
             ASCIIArt aSCIIArt = new ASCIIArt();
             Assert.IsNotNull(aSCIIArt);
 
-            var response = aSCIIArt.Convert(@"C:\Users\tiago_5btkkh4\OneDrive\tiago.png");
+            var response = aSCIIArt.Convert(@"Assets/Images/marguerite.jpg");
             Assert.IsNotNull(response);
             Assert.IsFalse(string.IsNullOrWhiteSpace(response));    
         }
